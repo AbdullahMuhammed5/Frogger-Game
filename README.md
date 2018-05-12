@@ -7,11 +7,12 @@ publish date : 12/5/2018<br>
 
 This is Frogger game for Udacity front-end nanogedree : 
 
-Basic Functionality : 
+**Basic Functionality** : 
 
 In this game you have a Player and Enemies (Bugs & Rocks). The goal of the player is to reach the other side after cross the  road, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the other side the game is won.
 
-Additional Functionality : 
+**Additional Functionality** : 
+
 - Player selection: user Allowed to select the image for the player character before starting the game.
 - Score: implementing a score for the game. For example, the score can increase each time the player reaches the other side, and it can be  reset to 0 when collision occurs (or it can be reduced).
 - Collectibles: Some gems have been added to the game, allowing the player to collect them to make the game more interesting.
