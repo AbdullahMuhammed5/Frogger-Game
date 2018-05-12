@@ -1,9 +1,9 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Projet Auther : Abdullah Muhammed.
-Contact : abdo566682gmail.com.
-publish date : 12/5/2018
+Projet Auther : Abdullah Muhammed.<br>
+Contact : abdo566682gmail.com.<br>
+publish date : 12/5/2018<br>
 
 This is Frogger game for Udacity front-end nanogedree : 
 
