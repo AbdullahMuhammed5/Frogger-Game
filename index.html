@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body onload="shuffleAllArray()">
+    <div class="container">
+       <div id="control_panel">
+            <div id="score">
+                <span>0</span> <img src="images/Coins.png" alt="Coins" width="30px">
+            </div>
+            <div id="lifes">
+              <img class="lifes" src="images/Heart.png" alt="Life" width="30px">
+              <img class="lifes" src="images/Heart.png" alt="Life" width="30px">
+              <img class="lifes" src="images/Heart.png" alt="Life" width="30px">
+          </div>
+            <div id="allPlayers">
+               <a href="#"><img class="chars" src="images/char-boy.png" alt="Boy Character"></a>
+               <a href="#"><img class="chars" src="images/char-cat-girl.png" alt="Cat girl Character"></a>
+               <a href="#"><img class="chars" src="images/char-horn-girl.png" alt="Horn girl Character"></a>
+               <a href="#"><img class="chars" src="images/char-pink-girl.png" alt="Pink girl Character"></a>
+               <a href="#"><img class="chars" src="images/char-princess-girl.png" alt="Princess girl Character#"></a>
+            </div>
+            <div id="guides">
+                <h4>Instructions: </h4>
+                <p>1- Press on P key to select your player.<img src="images/p-key.png" alt="Arrows" width="50px"></p>
+                <p>2- To win the game, You should cross the road to reach water.</p>
+                <p>3- Use UP, down, left and right keys to move on. <img src="images/arrows.png" alt="Arrows" width="70px"></p>
+                <p>4- Keep your self away from toaching bugs and Rocks.</p>
+                <p>5- Try to collect jewelries to get mare score.</p>
+            </div>
+       </div>
+   </div>
+<div class="modal" id="lose-modal" style="display: none" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title"> You lose! Good Luck in the Next Time</h2>
+        <img src="images/you-lose.png" alt="Sad Face" width="100px"><br/>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="hideModal()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>Do you wish to play again?</p>
+          <button type="button" class="btn btn-success" id="play-again" onclick="restart(), hideModal()">Yes</button>
+      <button type="button" class="btn btn-danger" id="back" onclick="hideModal()">No</button>
+        </div>
+    </div>
+  </div>
+</div>
+   
+   <audio src="sounds/coin_sound_effect.wav" id="coin_effect"></audio>
+   <audio src="sounds/fail_sound_effect.wav" id="fail_effect"></audio>
+   
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
