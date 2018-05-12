@@ -5,7 +5,7 @@ Projet Auther : Abdullah Muhammed.<br>
 Contact : abdo566682gmail.com.<br>
 publish date : 12/5/2018<br>
 
-This is Frogger game for Udacity front-end nanogedree : 
+This is Frogger game for Udacity front-end nanogedree.
 
 **Basic Functionality** : 
 
@@ -23,7 +23,7 @@ This is the Instructions: "To guide user playing the game"
 
 1- Press on P key to select your player.Arrows
 
-2- To win the game, You should cross the road to reach water.
+2- To win the game, You should cross the road to reach the other Side.
 
 3- Use UP, down, left and right keys to move on. Arrows
 
