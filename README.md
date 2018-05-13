@@ -7,7 +7,7 @@ publish date : 12/5/2018<br>
 
 This is Frogger game for Udacity front-end nanogedree.
 
-To access the game open the file index.html in your browser. Game will be loaded by engine.js and resourses.js and show up on index.html page
+To access the game open the file index.html in your browser. Game will be loaded by engine.js which will generate the canvas. this canvas has its resourses from resourses.js and then canvas will show up on index.html page.
 
 **Basic Functionality** : 
 
