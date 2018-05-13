@@ -25,7 +25,6 @@ const allPlayers = document.querySelector('#allPlayers'); // Seletc all players 
 const loseSound = document.querySelector('#fail_effect'); // Sound when player collision happen.
 const earnJewelrySound = document.querySelector('#coin_effect'); // Sound when player earn jewelries.
 
-let scoreCounter = 0; // to count player's score 
 let lifesCounter = 3; // Make player has only three lifes and customize any update(decreasing).
 
 let shuffledallLocations = [];
@@ -153,6 +152,8 @@ var Player = function(x, y){
     this.sprite = 'images/char-boy.png';
     this.x = x;
     this.y = y;
+    
+    let scoreCounter = 0; // to count player's score 
 }
 
 // Update method includes :
