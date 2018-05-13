@@ -7,6 +7,8 @@ publish date : 12/5/2018<br>
 
 This is Frogger game for Udacity front-end nanogedree.
 
+To access the game open the file index.html in your browser. Game will be loaded by engine.js and resourses.js and show up on index.html page
+
 **Basic Functionality** : 
 
 In this game you have a Player and Enemies (Bugs & Rocks). The goal of the player is to reach the other side after cross the  road, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the other side the game is won.
