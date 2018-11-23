@@ -29,6 +29,7 @@ let lifesCounter = 3; // Make player has only three lifes and customize any upda
 
 let shuffledallLocations = [];
 let jewelriesLoc , rockEnemyLoc = [];
+let scoreCounter;
 
 // from https://stackoverflow.com/a/6274398/7997431
 function shuffle(array) {
@@ -153,7 +154,7 @@ var Player = function(x, y){
     this.x = x;
     this.y = y;
     
-    let scoreCounter = 0; // to count player's score 
+    scoreCounter = 0; // to count player's score 
 }
 
 // Update method includes :
